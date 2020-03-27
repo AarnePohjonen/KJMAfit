@@ -1,6 +1,6 @@
 %This script was used to analyze data for article
 %"Kolmogorov-Johnson-Mehl-Avrami model fitted to COVID-19 mainland China
-%infection data" submitted for publication in Journal of Theoretical Biology
+%infection data" submitted for publication.
 %Author: Dr. Aarne Pohjonen (computational materials physics), Aarne.Pohjonen@Oulu.fi, Aarne.Pohjonen@iki.fi
 chinadata=load('mainlandchinadatafilteredjustinfect.txt','-ASCII');
 a=zeros(29,3);
