@@ -1,6 +1,6 @@
 italyirandata=load('italynew2.txt','-ASCII');
 fullinfecteddata=italyirandata(1,:);
-infecteddata2=italyirandata(1,1:85);
+infecteddata2=italyirandata(1,1:85);%number 85 here is the last day used in the fitting
 sizesdata2=size(infecteddata2);
 timedata2=linspace(1,sizesdata2(2),sizesdata2(2));
 fullsizesdata=size(fullinfecteddata);
